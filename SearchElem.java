@@ -6,7 +6,7 @@ public class SearchElem {
         int key = sc.nextInt();
         int arr[] = {7,8,20,18,6,10};
         int n = arr.length;
-        int idx =-1;
+        int idx =-1;//
         for(int i = 0 ; i < n ;i++){
             if(arr[i] == key){
                  idx = i;
